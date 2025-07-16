@@ -31,3 +31,5 @@ Enigma logic implemented in register.js uses rotors, plugboard, and reflector co
 
 This is the basic project for learning purpose only. It doesn't have any backend logic of storing password, it entirely works on the enigma configuration to suggest password.
 
+This project was done with Jiya Bajaj(https://github.com/Jiya1104) and Yash Tripathi (https://github.com/justbeingsniper)
+
