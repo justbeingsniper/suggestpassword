@@ -1,35 +1,44 @@
 # Enigma_SuggestPassword
-A basic frontend project using HTML, CSS, and JavaScript that simulates password suggestion using an Enigma-inspired encryption system. Users register with a username and password. If unsure about the password, they can use the "Suggest Password" button to generate a secure password automatically.
 
-Project Files
-register.html – Registration form page
+Enigma-Inspired Password Suggestion App
+A simple frontend-only project that demonstrates how password suggestions can be generated using logic inspired by the Enigma machine. Built using HTML, CSS, and JavaScript, this app allows users to register with a custom password or generate a secure one using a simulated rotor-based encryption system.
 
-register.js – Contains Enigma machine logic, password suggestion, and registration handling
-
-style.css – General page styling
-
-style1.css – Additional form styling
+| File            | Description                                                             |
+| --------------- | ----------------------------------------------------------------------- |
+| `register.html` | User registration form page                                             |
+| `register.js`   | Contains Enigma logic, password suggestion generator, and form handling |
+| `style.css`     | General styling for the webpage                                         |
+| `style1.css`    | Additional styling for the registration form                            |
 
 Features
-Custom password suggestion using an Enigma rotor system
+Enigma-inspired password suggestion using rotors, plugboard, and reflectors
 
-User registration with form validation (minimum 8 characters password)
+Form validation (minimum password length: 8 characters)
+
+100% browser-based, no server or backend required
+
+Great for learning about basic encryption logic and DOM interaction
 
 How to Use
-Open register.html in your browser.
+Open register.html in any web browser
 
-Fill in a username.
+Enter a username
 
-Either type a password (minimum 8 characters) or click the Suggest Password button.
+Choose one of the following:
 
-Click Register.
+Type your own password (minimum 8 characters), or
 
-Notes
-No server or backend is required; this project runs entirely in the browser.
+Click the "Suggest Password" button to auto-generate one
 
-Enigma logic implemented in register.js uses rotors, plugboard, and reflector configurations to generate randomized password suggestions.
+Click "Register"
 
-This is the basic project for learning purpose only. It doesn't have any backend logic of storing password, it entirely works on the enigma configuration to suggest password.
+Disclaimer
+This project is strictly for educational purposes.
+The Enigma simulation is a simplified model and should not be used for real-world encryption or password protection.
+No data is stored—everything runs locally in the browser.
 
-This project was done with Jiya Bajaj(https://github.com/Jiya1104) and Yash Tripathi (https://github.com/justbeingsniper)
+Collaborators
+Manvee Singh
+
+Jiya Bajaj
 
