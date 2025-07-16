@@ -1,45 +1,43 @@
-Enigma-Inspired Password Suggestion App
-A simple frontend-only project that demonstrates how password suggestions can be generated using logic inspired by the Enigma machine. Built using HTML, CSS, and JavaScript, this app allows users to register with a custom password or generate a secure one using a simulated rotor-based encryption system.
+# Enigma-Inspired Password Suggestion App
 
-Project Files:
+A browser-based registration form that generates secure passwords using simplified Enigma machine logic. Built with HTML, CSS, and JavaScript, this project simulates historical rotor-based encryption for educational purposes.
 
-register.html: User registration form page
+## Overview
 
-register.js: Contains Enigma logic, password suggestion generator, and form handling
+This project demonstrates how classic encryption concepts, like the Enigma machine, can be adapted to create a custom password suggestion system. It allows users to register with a username and either enter their own password or generate one using the Enigma-based logic.
 
-style.css: General styling for the webpage
+## Features
 
-style1.css: Additional styling for the registration form
+- Password suggestion based on Enigma-style rotor and reflector logic
+- Simple user registration form with frontend validation
+- Minimum password length enforced (8 characters)
+- No backend — all logic runs entirely in the browser
+- Great for learning encryption fundamentals and DOM manipulation
 
-Features:
+## File Structure
 
-Enigma-inspired password suggestion using rotors, plugboard, and reflectors
+- `register.html` – Registration form and UI
+- `register.js` – Core logic for password suggestion and form handling
+- `style.css` – Base styles for the UI
+- `style1.css` – Additional styles for form layout and design
 
-Form validation (minimum password length: 8 characters)
+## Getting Started
 
-Fully browser-based (no backend or server required)
+1. Clone or download the repository.
+2. Open `register.html` in your browser.
+3. Enter a username.
+4. Choose to:
+   - Enter a custom password (min. 8 characters), or
+   - Click **"Suggest Password"** to generate a strong password automatically.
+5. Click **"Register"**.
 
-Useful for understanding encryption logic and DOM manipulation
+## Disclaimer
 
-How to Use:
+This application is for educational purposes only.  
+The Enigma-based logic is a simplified simulation and **not secure for real-world use**.  
+No data is stored — all activity is performed locally in the browser.
 
-Open register.html in any web browser
+## Contributors
 
-Enter a username
-
-Choose to either:
-
-Enter your own password (at least 8 characters), or
-
-Click the "Suggest Password" button to generate one automatically
-
-Click "Register"
-
-Disclaimer:
-This project is intended for educational purposes only.
-The Enigma logic is a simplified simulation and should not be used for real-world password encryption.
-No data is saved or stored—everything runs locally in the browser.
-
-Collaborators:
-Manvee Singh - https://github.com/Manvee369
-Jiya Bajaj - https://github.com/Jiya1104
+- [Manvee Singh](https://github.com/Manvee369)
+- [Jiya Bajaj](https://github.com/Jiya1104)
